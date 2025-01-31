@@ -1,0 +1,1 @@
+# Lectrue Hall Management System
