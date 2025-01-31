@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <!-- Header Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@color/teal_700"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Dashboard Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dashboard"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:id="@+id/tv_dashboard"/>
+
+            <!-- Notification Bell -->
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/nortification"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="Notifications"/>
+        </RelativeLayout>
+
+        <!-- Today's Schedule -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TODAY'S SCHEDULE"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"/>
+        <include layout="@layout/custom_button"/>
+    </LinearLayout>
+
+    <!-- Include Custom Dropdown Button Below Dashboard -->
+
+
+    <!-- Content Section -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="28dp">
+
+            <!-- Schedule Cards -->
+            <include layout="@layout/schedule_card"/>
+            <include layout="@layout/schedule_card"/>
+            <include layout="@layout/schedule_card"/>
+            <include layout="@layout/schedule_card"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bottom_nv"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Home Icon -->
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/home"
+            android:layout_weight="1"
+            android:contentDescription="Home"/>
+
+        <!-- Clock Icon -->
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/clock"
+            android:layout_weight="1"
+            android:contentDescription="Clock"/>
+
+        <!-- Calendar Icon -->
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/calender"
+            android:layout_weight="1"
+            android:contentDescription="Calendar"/>
+
+        <!-- Settings Icon -->
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/setting"
+            android:layout_weight="1"
+            android:contentDescription="Settings"/>
+    </LinearLayout>
+
+</LinearLayout>
