@@ -103,10 +103,4 @@ Below are the main UI screens of the application:
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contributing
-Contributions are welcome! If you have any suggestions, bug fixes, or new features to add, please feel free to open an issue or submit a pull request.
 
-</br>
-<a href="https://github.com/yourusername/lecture-hall-reservation-system/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=yourusername/lecture-hall-reservation-system" />
-</a>
