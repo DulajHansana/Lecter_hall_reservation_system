@@ -144,6 +144,7 @@
 
 
         <TextView
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="already have an account? Log in"
