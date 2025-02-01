@@ -81,8 +81,7 @@ Lecture_Hall_Reservation_System/
 
 ## UI Screens
 Below are the main UI screens of the application:
-
-<img src="https://i.postimg.cc/kgjNGrBJ/UI-Image.png" />
+ <img src="https://i.postimg.cc/kgjNGrBJ/UI-Image.png" alt="tensorflow"  width="100%" height="100%"/>
 
 ## Authentication Flow
 - **Firebase Authentication**: Handles secure login and registration.
@@ -98,7 +97,7 @@ Below are the main UI screens of the application:
 - Integrate push notifications for schedule changes.
 
 ## Contributors
-- **Your Name** - Developer
+- **Dulaj Hansana** - Developer
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
